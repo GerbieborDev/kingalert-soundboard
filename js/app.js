@@ -1,17 +1,16 @@
 $(document).ready(() => { 
 
-
     $('#oprotten').click(function(){
-        $('audio#oprotten')[0].play()
+        playSound('./audio/king_oprotten.mp3')
     })
     $('#opkankeren').click(function(){
-        $('audio#opkankeren')[0].play()
+        playSound('./audio/king_opkankeren.mp3')
     })
     $('#blocken').click(function(){
-        $('audio#blocken')[0].play()
+        playSound('./audio/king_blocken.mp3')
     })
     $('#lach').click(function(){
-        $('audio#lach')[0].play()
+        playSound('./audio/king_lach.mp3')
     })
 
 });
